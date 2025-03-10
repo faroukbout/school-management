@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { useUserContext } from '../context/UserContext'
+
 
 export default function home() {
+  const context = useUserContext()
   return (
-    <div>home</div>
+    <>
+    {context.user.name}
+    <h1 className="text-3xl">hey from home </h1>
+    
+    </>
+    
   )
 }

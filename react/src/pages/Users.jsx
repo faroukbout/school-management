@@ -2,7 +2,7 @@ import React from 'react'
 
 function Users() {
   return (
-    <div>Users</div>
+    <h1 className='text-3xl'>hey Users</h1>
   )
 }
 
